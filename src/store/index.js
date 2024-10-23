@@ -14,12 +14,3 @@ const counterReducer = (state = { counter: 0 }, action) => {
 const store = createStore(counterReducer);
 
 export default store;
-// const counterSubscriber = () => {
-//   const latestState = store.getState();
-//   console.log(latestState);
-// };
-
-// store.subscribe(counterSubscriber);
-
-// store.dispatch({ type: "increment" });
-// store.dispatch({ type: "decrement" });
