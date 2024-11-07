@@ -1,0 +1,12 @@
+git branch -M main
+git push -u origin main
+Enumerating objects: 52, done.
+Counting objects: 100% (52/52), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (44/44), done.
+Writing objects: 100% (52/52), 201.32 KiB | 16.78 MiB/s, done.
+Total 52 (delta 9), reused 31 (delta 3), pack-reused 0
+remote: Resolving deltas: 100% (9/9), done.
+To https://github.com/atii007/remote.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
